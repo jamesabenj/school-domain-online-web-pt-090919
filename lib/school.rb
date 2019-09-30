@@ -29,9 +29,8 @@ class School
   
   def sort 
     
-    new_roster = roster.map do |grade, student| 
-    student.sort
-      end
+    roster.map do |grade, student| 
+      roster[grade].replace(new_roster)
     end
     
 end 

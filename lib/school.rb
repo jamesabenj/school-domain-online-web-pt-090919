@@ -28,13 +28,10 @@ class School
   end 
   
   def sort 
-    sorted_roster = roster.each do |grade, students|
-    students.sort
-    roster.sort
+    sorted_roster = roster.sort 
+    binding.pry
     end
-    binding.pry 
-    roster.sort
-  end 
+    
   
   
 end 

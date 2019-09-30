@@ -28,9 +28,10 @@ class School
   end 
   
   def sort 
-   roster.each do |grade, student| 
+   new_roster = roster.each do |grade, student| 
      roster[grade] = student.sort
     end
+    new_roster.sort
   end
     
 end 

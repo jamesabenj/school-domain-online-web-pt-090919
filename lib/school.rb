@@ -28,8 +28,9 @@ class School
   end 
   
   def sort 
+    
     sorted_roster = roster.sort 
-    binding.pry
+    
     end
     
   

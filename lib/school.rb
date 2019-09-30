@@ -1,7 +1,7 @@
 # code here!
 require "pry" 
 class School
-  def initialize(school_name, roster = {grade: []})
+  def initialize(school_name, roster = {})
     @school_name = school_name
     @roster = roster
   end 
@@ -15,11 +15,12 @@ class School
   end
 
   def add_student(student_name, grade)
-      
+      while roster.empty do 
+      roster[grade] = []
     roster.each do |grade_number, student|
       if grade_number == grade
       roster[grade] << student_name
-    
+        end
       end
     end 
   end

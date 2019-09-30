@@ -31,8 +31,8 @@ class School
     roster.each do |grade, students|
       
     roster[grade].sort
-    binding.bry
     end
+    binding.pry 
     roster.sort
   end 
   

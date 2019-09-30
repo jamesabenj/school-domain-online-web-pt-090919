@@ -31,8 +31,8 @@ class School
     
     new_roster = roster.map do |grade, student| 
     student.sort
-    binding.pry
       end
+      binding.pry
       new_roster.sort
     end
     

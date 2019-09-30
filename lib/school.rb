@@ -32,7 +32,7 @@ class School
     new_roster = roster.each do |grade, student| 
     student.sort
       end
-      roster.sort
+      new_roster.sort
     end
     
 end 

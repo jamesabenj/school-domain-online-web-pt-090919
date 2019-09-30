@@ -17,8 +17,7 @@ class School
   def add_student(student_name, grade)
         if roster.empty?
       roster[grade] = []
-    roster[grade].collect do |grade_number, student|
-      binding.pry
+    roster[grade].each do |grade_number, student|
       if grade_number == grade
       roster[grade] << student_name
       end

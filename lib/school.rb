@@ -28,9 +28,7 @@ class School
   end 
   
   def sort 
-    
-    roster.map do |grade, student| 
-      roster[grade].replace(new_roster)
+    roster.merge(hash) 
     end
     
 end 

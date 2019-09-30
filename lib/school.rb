@@ -28,7 +28,7 @@ class School
   end 
   
   def sort 
-    roster.merge(hash) 
+    roster.merge(hash) |grade, students|
     end
     
 end 

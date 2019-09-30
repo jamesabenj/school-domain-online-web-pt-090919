@@ -28,10 +28,11 @@ class School
   end 
   
   def sort 
-    sorted_students = roster.map do |grade, students|
-      students.sort
-    binding.pry
+    roster.each do |grade, students|
+      
+    roster[grade].sort
     end
+    roster.sort
   end 
   
   

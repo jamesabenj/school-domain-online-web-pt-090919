@@ -32,7 +32,7 @@ class School
       binding.pry 
     sorted_roster = roster.sort 
     
-    
+      end
     end
     
 end 

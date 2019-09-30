@@ -28,10 +28,10 @@ class School
   end 
   
   def sort 
-    new_roster = roster.merge(hash) |grade, students|
-    students.sort
-
-  new_roster.sort
+   roster.each do |grade, student| 
+     new_hash = roster[grade]
+    
+       
     end
     
 end 

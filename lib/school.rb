@@ -30,7 +30,7 @@ class School
   def sort 
     new_roster = roster.merge(hash) |grade, students|
     students.sort
-  end
+
   new_roster.sort
     end
     

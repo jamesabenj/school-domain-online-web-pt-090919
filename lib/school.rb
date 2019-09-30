@@ -28,10 +28,9 @@ class School
   end 
   
   def sort 
-   roster.each do |grade, student| 
-     new_hash = roster[grade]
-    
-       
+   new_roster = roster.each do |grade, student| 
+     roster[grade] = student.sort
     end
+  end
     
 end 

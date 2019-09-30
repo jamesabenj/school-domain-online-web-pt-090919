@@ -15,7 +15,7 @@ class School
   end
 
   def add_student(student_name, grade)
-      while roster.empty do 
+      while roster.empty? do 
       roster[grade] = []
     end
     roster.each do |grade_number, student|
